@@ -1,0 +1,55 @@
+.pokemon-card {
+  display: grid;
+  grid-template-columns: 1fr 0.6fr 1fr;
+  grid-template-areas:
+    'name . number'
+    '. . pic'
+    'type . pic';
+  row-gap: 0.1rem;
+  background-color: #bebd67;
+  color: #f1f1f1;
+  border-radius: 1rem;
+
+  padding: 1rem;
+
+  width: 14rem;
+  max-height: 6rem;
+}
+
+.pokemon-card h2 {
+  grid-area: name;
+  margin: 0;
+}
+
+.pokemon-card .card-number {
+  grid-area: number;
+  margin: 0;
+
+  color: #646337;
+  text-align: right;
+}
+
+.pokemon-card .type {
+  grid-area: type;
+
+  width: 4.5rem;
+  height: 4.5rem;
+}
+
+.pokemon-card .type h4 {
+  background: #646337;
+  text-align: center;
+
+  font-size: 0.8rem;
+  border-radius: 5rem;
+
+  margin: 0;
+  margin-top: 0.2rem;
+}
+
+.pokemon-card img {
+  grid-area: pic;
+  margin: 0;
+
+  width: 6rem;
+}
