@@ -6,10 +6,11 @@
     '. . pic'
     'type . pic';
   row-gap: 0.1rem;
-  background-color: #bebd67;
-  color: #f1f1f1;
-  border-radius: 1rem;
 
+  color: #f1f1f1;
+  background-color: #616161;
+
+  border-radius: 1rem;
   padding: 1rem;
 
   width: 14rem;
@@ -19,17 +20,18 @@
 .pokemon-card h2 {
   grid-area: name;
   margin: 0;
+
+  text-transform: capitalize;
 }
 
 .pokemon-card .card-number {
   grid-area: number;
   margin: 0;
 
-  color: #646337;
   text-align: right;
 }
 
-.pokemon-card .type {
+.pokemon-card .types {
   grid-area: type;
 
   width: 4.5rem;
@@ -40,12 +42,15 @@
   padding: 0;
 }
 
-.pokemon-card .type li {
-  background: #646337;
+.pokemon-card .types li {
   text-align: center;
 
   font-size: 0.8rem;
   border-radius: 5rem;
+
+  filter: brightness(1.1);
+
+  text-align: center;
 
   margin: 0.2rem 0;
 }
@@ -54,4 +59,33 @@
   grid-area: pic;
 
   width: 4.2rem;
+  max-height: 4.2rem;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+}
+
+.pagination button {
+  cursor: pointer;
+
+  border: none;
+  background-color: #8460b9;
+  color: #fff;
+  border-radius: 1rem;
+  padding: 0.25rem 0.5rem;
+
+  transition: all 300ms;
+}
+
+.pagination button:hover {
+  background-color: #4e386e;
+}
+
+.pagination button:active {
+  background-color: #b393e4;
 }

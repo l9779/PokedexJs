@@ -1,0 +1,38 @@
+.grass {
+  background-color: #36c45a;
+}
+
+.fire {
+  background-color: #d37637;
+}
+
+.water {
+  background-color: #589cc4;
+}
+
+.bug {
+  background-color: #b7c53a;
+}
+
+.poison {
+  background-color: #973b8b;
+}
+
+.ground {
+  background-color: #86733d;
+}
+
+.normal {
+  background-color: #a59d7a;
+}
+
+.fighting {
+  background-color: #af4221;
+}
+
+.fairy {
+  background-color: #ca90b4;
+}
+.flying {
+  background-color: #939c99;
+}
