@@ -1,44 +1,143 @@
+.normal {
+  background-color: #a6a877;
+}
+
 .grass {
-  background-color: #36c45a;
+  background-color: #77c850;
 }
 
 .fire {
-  background-color: #d37637;
+  background-color: #ee7f30;
 }
 
 .water {
-  background-color: #589cc4;
+  background-color: #678fee;
 }
 
-.bug {
-  background-color: #b7c53a;
+.electric {
+  background-color: #f7cf2e;
 }
 
-.poison {
-  background-color: #973b8b;
+.ice {
+  background-color: #98d5d7;
 }
 
 .ground {
-  background-color: #86733d;
+  background-color: #dfbf69;
 }
 
-.normal {
-  background-color: #a59d7a;
+.flying {
+  background-color: #a98ff0;
+}
+
+.poison {
+  background-color: #a040a0;
 }
 
 .fighting {
-  background-color: #af4221;
+  background-color: #bf3029;
+}
+
+.psychic {
+  background-color: #f65687;
+}
+
+.dark {
+  background-color: #725847;
+}
+
+.rock {
+  background-color: #b8a137;
+}
+
+.bug {
+  background-color: #a8b720;
+}
+
+.ghost {
+  background-color: #6e5896;
+}
+
+.steel {
+  background-color: #b9b7cf;
+}
+
+.dragon {
+  background-color: #6f38f6;
 }
 
 .fairy {
-  background-color: #ca90b4;
+  background-color: #f9aec7;
 }
-.flying {
-  background-color: #939c99;
+
+.normal-label {
+  background-color: #63644b;
 }
-.electric {
-  background-color: #afb653;
+
+.grass-label {
+  background-color: #4d8334;
 }
-.psychic {
-  background-color: #aa9a40;
+
+.fire-label {
+  background-color: #954207;
+}
+
+.water-label {
+  background-color: #475b8a;
+}
+
+.electric-label {
+  background-color: #887320;
+}
+
+.ice-label {
+  background-color: #51b4b8;
+}
+
+.ground-label {
+  background-color: #85723e;
+}
+
+.flying-label {
+  background-color: #a097b9;
+}
+
+.poison-label {
+  background-color: #611761;
+}
+
+.fighting-label {
+  background-color: #7c0e08;
+}
+
+.psychic-label {
+  background-color: #be2352;
+}
+
+.dark-label {
+  background-color: #30251d;
+}
+
+.rock-label {
+  background-color: #635828;
+}
+
+.bug-label {
+  background-color: #596112;
+}
+
+.ghost-label {
+  background-color: #3e3352;
+}
+
+.steel-label {
+  background-color: #686777;
+}
+
+.dragon-label {
+  background-color: #3d2579;
+}
+
+.fairy-label {
+  background-color: #ca7491;
 }

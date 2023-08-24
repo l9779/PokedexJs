@@ -4,4 +4,5 @@ class PokemonModel {
   type;
   types = [];
   picture;
+  link;
 }

@@ -1,4 +1,4 @@
-const pokmeonList = document.getElementById('pokemonList');
+const pokemonList = document.getElementById('pokemonList');
 const loadMoreButton = document.getElementById('loadMore');
 const maxRecord = 151;
 const limit = 5;
@@ -10,21 +10,20 @@ function loadPokemonCards(offset, limit) {
       .map(
         (pokemon) =>
           `<li class="pokemon-card ${pokemon.type} ">
-            <h2>${pokemon.name}</h2>
-            <span class="card-number">#${pokemon.number}</span>
-      
-            <ul class="types">
-              ${pokemon.types
-                .map((type) => `<li class="${type}" >${type}</li>`)
-                .join('')}
-            </ul>
-
-             <img src=${pokemon.picture} alt=${pokemon.name} />
-          </li>
-    `
+                <h2>${pokemon.name}</h2>
+                <span class="card-number">#${pokemon.number}</span>
+                
+                <ul class="types">
+                ${pokemon.types
+                  .map((type) => `<li class="${type}-label" >${type}</li>`)
+                  .join('')}
+                </ul>
+                
+                <img src=${pokemon.picture} alt=${pokemon.name} />
+          </li>`
       )
       .join('');
-    pokmeonList.innerHTML += newHtml;
+    pokemonList.innerHTML += newHtml;
   });
 }
 
