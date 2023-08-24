@@ -26,6 +26,34 @@ main {
   gap: 1rem;
 }
 
+.pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 100%;
+}
+
+.pagination button {
+  cursor: pointer;
+
+  border: none;
+  background-color: #8460b9;
+  color: #fff;
+  border-radius: 1rem;
+  padding: 0.25rem 0.5rem;
+
+  transition: all 300ms;
+}
+
+.pagination button:hover {
+  background-color: #4e386e;
+}
+
+.pagination button:active {
+  background-color: #b393e4;
+}
+
 @media screen and (min-width: 572px) {
   .content {
     display: grid;

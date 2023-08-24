@@ -11,7 +11,7 @@ function loadPokemonCards(offset, limit) {
         (pokemon) =>
           `<li class="pokemon-card ${pokemon.type} ">
             <h2>${pokemon.name}</h2>
-            <h4 class="card-number">#${pokemon.number}</h4>
+            <span class="card-number">#${pokemon.number}</span>
       
             <ul class="types">
               ${pokemon.types
