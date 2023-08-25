@@ -17,8 +17,12 @@ a:visited {
 main {
   margin: 1rem auto;
 
-  padding: 1rem;
+  padding: 1rem 0;
   max-width: 850px;
+}
+
+h1 {
+  padding-left: 1rem;
 }
 
 .pokemon_list {
@@ -46,7 +50,7 @@ main {
 
   border: none;
   background-color: #8460b9;
-  color: #fff;
+  color: #f1f1f1;
   border-radius: 1rem;
   padding: 0.5rem;
 

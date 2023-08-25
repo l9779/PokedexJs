@@ -21,49 +21,14 @@
   <body>
     <main>
       <h1>Pokedex</h1>
-      <div class="pokenom_detail">
-        <section class="picture_section">
-          <img
-            src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg"
-            alt="coisa"
-          />
-        </section>
-
-        <section class="info_section">
-          <div class="info_tile">
-            <h3>name:</h3>
-            <span id="name">name</span>
-          </div>
-          <div class="info_tile">
-            <h3>number:</h3>
-            <span>#1</span>
-          </div>
-          <div class="info_tile types">
-            <h3>Types:</h3>
-            <ul>
-              <li>tipo 1</li>
-              <li>tipo 2</li>
-            </ul>
-          </div>
-          <div class="info_tile">
-            <h3>base experience:</h3>
-            <span>64</span>
-          </div>
-          <div class="info_tile">
-            <h3>height:</h3>
-            <span>7</span>
-          </div>
-          <div class="info_tile">
-            <h3>weight:</h3>
-            <span>60</span>
-          </div>
-        </section>
-      </div>
+      <div id="pokenom_detail" class="pokenom_detail"></div>
 
       <div class="btn_container">
         <button id="loadMore"><a href="./index.html">Back</a></button>
       </div>
     </main>
+    <script src="./assets/js/pokemon-model.js"></script>
+    <script src="./assets/js/poke-api.js"></script>
     <script src="./assets/js/detail.js"></script>
   </body>
 </html>

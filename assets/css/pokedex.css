@@ -7,6 +7,14 @@
   width: 14rem;
   max-height: 6rem;
 
+  transition: all 300ms;
+}
+
+.pokemon-card:hover {
+  filter: brightness(1.2);
+}
+
+.pokemon-card a {
   display: grid;
   grid-template-columns: 1fr 0.6fr 1fr;
   grid-template-areas:
@@ -14,13 +22,6 @@
     '. . pic'
     'type . pic';
   row-gap: 0.1rem;
-
-  transition: all 300ms;
-}
-
-.pokemon-card:hover {
-  filter: brightness(0.9);
-  cursor: pointer;
 }
 
 .pokemon-card h2 {

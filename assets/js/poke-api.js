@@ -13,6 +13,10 @@ function convertDetailToModel(pokeDetail) {
   pokemon.type = type;
   pokemon.picture = pokeDetail.sprites.other.dream_world.front_default;
 
+  pokemon.baseExperience = pokeDetail.base_experience;
+  pokemon.height = pokeDetail.height;
+  pokemon.weight = pokeDetail.weight;
+
   return pokemon;
 }
 

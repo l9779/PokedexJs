@@ -10,6 +10,7 @@ function loadPokemonCards(offset, limit) {
       .map(
         (pokemon) =>
           `<li class="pokemon-card ${pokemon.type} ">
+              <a href="http://localhost:5500/detail.html?id=${pokemon.number}">
                 <h2>${pokemon.name}</h2>
                 <span class="card-number">#${pokemon.number}</span>
                 
@@ -20,6 +21,7 @@ function loadPokemonCards(offset, limit) {
                 </ul>
                 
                 <img src=${pokemon.picture} alt=${pokemon.name} />
+              </a>
           </li>`
       )
       .join('');

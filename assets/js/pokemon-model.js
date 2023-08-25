@@ -4,5 +4,7 @@ class PokemonModel {
   type;
   types = [];
   picture;
-  link;
+  baseExperience;
+  height;
+  weight;
 }
