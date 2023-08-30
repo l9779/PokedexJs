@@ -10,7 +10,9 @@ function loadPokemonCards(offset, limit) {
       .map(
         (pokemon) =>
           `<li class="pokemon-card ${pokemon.type} ">
-              <a href="http://localhost:5500/detail.html?id=${pokemon.number}">
+              <a href="https://l9779.github.io/PokedexJs/detail.html?id=${
+                pokemon.number
+              }">
                 <h2>${pokemon.name}</h2>
                 <span class="card-number">#${pokemon.number}</span>
                 
