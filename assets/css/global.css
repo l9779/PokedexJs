@@ -33,6 +33,8 @@ h1 {
   flex-direction: column;
   align-items: center;
   gap: 1rem;
+
+  list-style: none;
 }
 
 .btn_container {
